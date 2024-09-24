@@ -4,4 +4,4 @@ import users, { getPremUsers } from './data';
 console.log(users);
 console.log(getPremUsers(users));
 
-console.log('testing');
+console.log('test 2');
