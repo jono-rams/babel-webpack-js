@@ -4,7 +4,8 @@
   "description": "Using Babel and Webpack with JS",
   "main": "index.js",
   "scripts": {
-    "babel": "npx babel src/index.js -w -o dist/assets/bundle.js"
+    "babel": "npx babel src/index.js -w -o dist/assets/bundle.js",
+    "webpack": "npx webpack"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,8 @@
   "devDependencies": {
     "@babel/cli": "^7.25.6",
     "@babel/core": "^7.25.2",
-    "@babel/preset-env": "^7.25.4"
+    "@babel/preset-env": "^7.25.4",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
   }
 }
