@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("dom file");const e=document.querySelector("body");console.log("index file"),e.style.background="peachpuff",(()=>{const o=document.createElement("h1");o.textContent="Hello, world from the DOM file",e.appendChild(o)})(),console.log("rampersad.jonathan@gmail.com")})();
+(()=>{"use strict";console.log("dom file"),document.querySelector("body");const e=[{name:"mario",premium:!0},{name:"luigi",premium:!1},{name:"yoshi",premium:!0},{name:"toad",premium:!0},{name:"peach",premium:!1}];console.log(e),console.log((e=>e.filter((e=>e.premium)))(e))})();

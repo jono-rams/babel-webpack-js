@@ -1,7 +1,5 @@
 import { styleBody, addTitle, contact } from './dom';
+import users, { getPremUsers } from './data';
 
-console.log('index file');
-
-styleBody();
-addTitle('Hello, world from the DOM file');
-console.log(contact);
+console.log(users);
+console.log(getPremUsers(users));
